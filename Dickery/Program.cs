@@ -17,28 +17,11 @@ namespace Dickery
             //Palindrome.Run();
             //Challenge128.Run();
             //FizzBuzz.Run();
-
-            var lick = new Lictionary<int, string>();
-
-            lick.Add(1, "Hi");
-            lick.Add(2, "Boobs");
-            lick.Add(1, "Oh Hello");
-
-            var messages = lick.GetValues(1);
-
-            foreach (var message in messages)
-                Console.WriteLine(message);
-
-            Console.ReadLine();
-
-            lick.RemoveValueFromKey(1, "Hi");
-
-            messages = lick.GetValues(1);
-
-            foreach (var message in messages)
-                Console.WriteLine(message);
-
-            Console.ReadLine();
+            //Hash.RunTestArray();
+            //Hash.RunTestHash();
+            //Hash.RunTestList();
+            //FirstNameLastNameSwitcheroo.SwitchEm();
+            KnightsTour.Run();
         }
     }
 }

@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,8 +45,11 @@
     <Compile Include="Challenge128.cs" />
     <Compile Include="Challenge130.cs" />
     <Compile Include="Challenge131.cs" />
+    <Compile Include="FirstNameLastNameSwitcheroo.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="CountVowels.cs" />
+    <Compile Include="Hash.cs" />
+    <Compile Include="KnightsTour.cs" />
     <Compile Include="Lictionary.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="PigLatin.cs" />
