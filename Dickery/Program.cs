@@ -21,7 +21,8 @@ namespace Dickery
             //Hash.RunTestHash();
             //Hash.RunTestList();
             //FirstNameLastNameSwitcheroo.SwitchEm();
-            KnightsTour.Run();
+            //KnightsTour.Run();
+            WinnerWinner.Run();
         }
     }
 }
